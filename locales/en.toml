@@ -1,0 +1,141 @@
+name = "Loup Menjoulet"
+degree = "Computer and Elecronics engineer, specialized in network quality and security"
+title = "Loup Menjoulet's resume"
+
+[[contacts]]
+category = "Phone"
+display = "+33 7 68 61 79 48"
+link = "tel:+33768617948"
+
+[[contacts]]
+category = "Email"
+display = "lmenjoulet@laposte.net"
+link = "mailto:lmenjoulet@laposte.net"
+
+[[contacts]]
+category = "LinkedIn"
+display = "loup-menjoulet"
+link = "https://www.linkedin.com/in/loup-menjoulet/"
+
+[jobs]
+title = "Professional experience"
+
+[[jobs.items]]
+position = "IT & Security coordinator"
+company = "EDF"
+location = "Hanoi, Vietnam"
+date = "August 2023 - Present time"
+description = [
+  "Cybersecurity follow-up for entities in the Asia-Pacific area.",
+  "Physical audit of industrial datacenters in Laos and Vietnam.",
+  "Migration of legacy end user computers to Intune managed fleet solutions.",
+  "Helpdesk."
+]
+
+[[jobs.items]]
+position = "Security Operation Center intern"
+company  = "EDF"
+location = "Nancy, France"
+date = "March 2023 - July 2023"
+description = [
+  "Go programming for automated testing of the company's SIEM ruleset",
+  "Creation of an automated weather report of the antivirus coverage using PowerShell and SQLite",
+  "Integration of the weather report in Splunk dashboards",
+]
+
+[[jobs.items]]
+position = "Neural networks lab intern"
+company = "INU"
+location = "Incheon, South Korea"
+date = "May 2022 - July 2022"
+description = [
+  "Creating a synthesizing tool for Household electric datasets from an LSTM NN",
+  "Data analytics on state of the art datasets using Pandas"
+]
+
+[trainings]
+title = "Trainings"
+
+[[trainings.items]]
+title = "Computer and electronics engineer, specialized in network security and quality"
+school = "ESIREM"
+location = "Dijon, France"
+date = "September 2020 to July 2023"
+description = [
+  "Focus on computers and computer networks",
+  "CCNA exams",
+  "Mobile development using Swift and Java",
+  "Linux systems administration (RedHat and Debian based)"
+]
+
+[[trainings.items]]
+title = "Integrated preparatory cycle"
+school = "ESIREM"
+location = "Dijon, France"
+date = "September 2018 to August 2020"
+description = [
+  "Focused on scientific learning and computer science fundamentals.",
+  "Semiconductor physics, signal processing.",
+  "Object-oriented programming in CPP, UNIX basics and bash shell."
+]
+
+[[trainings.items]]
+title = "Exchange semester"
+school = "INU"
+location = "Incheon, South Korea"
+date = "February 2022 to August 2022"
+description = [
+  "Hands-on machine learning training: DNN and LSTM using Keras",
+  "Low level computing with MIPS assembly"
+]
+
+[[trainings.items]]
+title = "Scientific Baccalaureate"
+school = "Lycée St Cricq"
+location = "Pau, France"
+date = "September 2015 to July 2018"
+description = [
+  "Obtained with honours, cat. very good",
+  "European honors (physics in english)"
+]
+
+[languages]
+title = "Languages"
+
+[[languages.items]]
+lang = "English"
+level = "C2"
+proof = "TOEIC 975/990"
+
+[[languages.items]]
+lang = "Spanish"
+level = "A2"
+proof = ""
+
+[[languages.items]]
+lang = "Korean"
+level = "Beginner, can read hangul"
+proof = ""
+
+[skills]
+title = "Skills"
+
+[[skills.categories]]
+title = "Programming languages"
+items = ["Go", "Python", "PowerShell", "Bash", "SQL"]
+
+[[skills.categories]]
+title = "UNIX-derived systems"
+items = [ "Debian", "RHEL", "NixOS", "MacOS" ]
+
+[[skills.categories]]
+title = "Networking"
+items = [ "Cisco IOS", "WireGuard", "NGINX", "DNS records" ]
+
+
+[aboutme]
+title = "About me"
+content = """
+Libre software enthusiast, I have Linux installed on all my machines
+(NixOS my beloved) and spend my time fooling around in the terminal, this resume
+might have been compiled from there."""

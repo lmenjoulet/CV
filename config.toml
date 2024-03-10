@@ -1,0 +1,5 @@
+locale = "en"
+author = "Loup Menjoulet"
+
+[style]
+font = "IBM Plex Sans"
