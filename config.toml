@@ -1,5 +1,7 @@
 locale = "en"
 author = "Loup Menjoulet"
+profile = "./photo.png"
 
 [style]
 font = "IBM Plex Sans"
+visibleProfile = true 

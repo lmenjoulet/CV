@@ -13,6 +13,10 @@
 )
 #set par(justify: true)
 
+#set list(
+  indent: 1em
+)
+
 #show heading: it => [
   #if it.level == 2 {
     line(length: 100%, stroke: 1pt) 
@@ -25,16 +29,18 @@
 
 #set document(
   title: content.title,
-  author: content.name,
-
+  author: content.author,
 )
 
 #let sidebar = {[
-  #image("./photo.png")
-  #line(length: 100%)
+  #if config.style.visibleProfile [
+    #pad(1em)[#image(config.profile)]
+    #line(length: 100%)
+  ]
   #for contact in content.contacts [
     #contact.category: #h(1fr) #link(contact.link)[#contact.display]
   ]
+
   #line(length: 100%)
   === #content.languages.title
   #for language in content.languages.items [
@@ -54,7 +60,7 @@
 ]}
 
 #let main = {[
-  = #content.name
+  = #content.author
   _#content.degree _
   == #content.jobs.title
   #for job in content.jobs.items [

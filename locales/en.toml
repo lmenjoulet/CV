@@ -1,4 +1,4 @@
-name = "Loup Menjoulet"
+author = "Loup Menjoulet"
 degree = "Computer and Elecronics engineer, specialized in network quality and security"
 title = "Loup Menjoulet's resume"
 
@@ -104,7 +104,7 @@ title = "Languages"
 
 [[languages.items]]
 lang = "English"
-level = "C2"
+level = "C1"
 proof = "TOEIC 975/990"
 
 [[languages.items]]
