@@ -1,5 +1,4 @@
 #let config = toml("./config.toml")
-
 #let content = toml("./locales/"+ config.locale + ".toml") 
 
 // styling
@@ -38,7 +37,7 @@
     #line(length: 100%)
   ]
   #for contact in content.contacts [
-    #contact.category: #h(1fr) #link(contact.link)[#contact.display]
+    #contact.category: #h(1fr) #link(contact.link)[#contact.display] \
   ]
 
   #line(length: 100%)
@@ -56,7 +55,9 @@
   #line(length: 100%)
   === #content.aboutme.title
   #content.aboutme.content
-
+  
+  #line(length: 100%)
+  https://github.com/lmenjoulet/CV
 ]}
 
 #let main = {[
@@ -86,8 +87,8 @@
 
 // Body
 #align(center)[
-  #set text(size: 2em)
-  *Curriculum Vitae*
+  #set text(size: 1.5em)
+  #underline[*Curriculum Vitae*]
 ]
 
 #grid(
