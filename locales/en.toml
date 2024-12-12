@@ -21,15 +21,15 @@ link = "https://www.linkedin.com/in/loup-menjoulet/"
 title = "Professional experience"
 
 [[jobs.items]]
-position = "IT & Security coordinator"
+position = "Cybersecurity & IT Coordinator"
 company = "EDF"
 location = "Hanoi, Vietnam"
 date = "August 2023 - Present time"
 description = [
-  "Cybersecurity follow-up for entities in the Asia-Pacific area.",
-  "Physical audit of industrial datacenters in Laos and Vietnam.",
+  "Cybersecurity supervision for entities in the Asia-Pacific area.",
+  "Coordination of IT decisions between the different entities in APAC",
+  "Physical audit of industrial systems and datacenters in Laos and Vietnam.",
   "Migration of legacy end user computers to Intune managed fleet solutions.",
-  "Helpdesk."
 ]
 
 [[jobs.items]]
@@ -105,7 +105,7 @@ title = "Languages"
 [[languages.items]]
 lang = "English"
 level = "C1"
-proof = "TOEIC 975/990"
+proof = "\nTOEIC 975/990\n IELTS 7.5"
 
 [[languages.items]]
 lang = "Spanish"

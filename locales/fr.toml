@@ -22,7 +22,7 @@ link = "https://www.linkedin.com/in/loup-menjoulet/"
 title = "Expérience professionnelle"
 
 [[jobs.items]]
-position = "Coordinateur Informatique et Cybersécurité"
+position = "Coordinateur Cybersécurité et Informatique"
 company = "EDF"
 location = "Hanoï, Vietnam"
 date = "Août 2023 - Maintenant"
@@ -116,7 +116,7 @@ title = "Langues"
 [[languages.items]]
 lang = "Anglais"
 level = "C1"
-proof = "TOEIC 975/990"
+proof = "\nTOEIC 975/990\nIELTS 7.5"
 
 [[languages.items]]
 lang = "Espagnol"
