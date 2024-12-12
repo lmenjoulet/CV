@@ -3,5 +3,5 @@ author = "Loup Menjoulet"
 profile = "./photo.png"
 
 [style]
-font = "IBM Plex Sans"
+font = "Libertinus Serif"
 visibleProfile = true 
