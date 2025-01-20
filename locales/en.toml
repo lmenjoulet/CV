@@ -14,8 +14,8 @@ link = "mailto:lmenjoulet@laposte.net"
 
 [[contacts]]
 category = "LinkedIn"
-display = "loup-menjoulet"
-link = "https://www.linkedin.com/in/loup-menjoulet/"
+display = "lmenj"
+link = "https://linkedin.com/in/lmenj/"
 
 [jobs]
 title = "Professional experience"
@@ -27,9 +27,10 @@ location = "Hanoi, Vietnam"
 date = "August 2023 - Present time"
 description = [
   "Cybersecurity supervision for entities in the Asia-Pacific area.",
-  "Coordination of IT decisions between the different entities in APAC",
+  "Coordination of IT decisions between the different entities in APAC and Paris HQ.",
   "Physical audit of industrial systems and datacenters in Laos and Vietnam.",
   "Migration of legacy end user computers to Intune managed fleet solutions.",
+  "Benchmarking and contract negociation with IT contractors.",
 ]
 
 [[jobs.items]]
@@ -38,9 +39,9 @@ company  = "EDF"
 location = "Nancy, France"
 date = "March 2023 - July 2023"
 description = [
-  "Go programming for automated testing of the company's SIEM ruleset",
-  "Creation of an automated weather report of the antivirus coverage using PowerShell and SQLite",
-  "Integration of the weather report in Splunk dashboards",
+  "Go programming for automated testing of the company's SIEM ruleset.",
+  "Creation of an automated weather report of the antivirus coverage using PowerShell and SQLite.",
+  "Integration of the weather report in Splunk dashboards.",
 ]
 
 [[jobs.items]]
@@ -49,8 +50,8 @@ company = "INU"
 location = "Incheon, South Korea"
 date = "May 2022 - July 2022"
 description = [
-  "Creating a synthesizing tool for Household electric datasets from an LSTM NN",
-  "Data analytics on state of the art datasets using Pandas"
+  "Creating a synthesizing tool for Household electric datasets from an LSTM NN.",
+  "Data analytics on state of the art datasets using Pandas."
 ]
 
 [trainings]
@@ -62,10 +63,20 @@ school = "ESIREM"
 location = "Dijon, France"
 date = "September 2020 to July 2023"
 description = [
-  "Focus on computers and computer networks",
-  "CCNA exams",
-  "Mobile development using Swift and Java",
-  "Linux systems administration (RedHat and Debian based)"
+  "Focus on computer networks and cybersecurity.",
+  "CCNA exams.",
+  "Mobile development using Swift and Java.",
+  "Linux systems administration (RedHat and Debian based)."
+]
+
+[[trainings.items]]
+title = "Exchange semester"
+school = "INU"
+location = "Incheon, South Korea"
+date = "February 2022 to August 2022"
+description = [
+  "Hands-on machine learning training: DNN and LSTM using Keras.",
+  "Low level computing with MIPS assembly."
 ]
 
 [[trainings.items]]
@@ -80,23 +91,13 @@ description = [
 ]
 
 [[trainings.items]]
-title = "Exchange semester"
-school = "INU"
-location = "Incheon, South Korea"
-date = "February 2022 to August 2022"
-description = [
-  "Hands-on machine learning training: DNN and LSTM using Keras",
-  "Low level computing with MIPS assembly"
-]
-
-[[trainings.items]]
 title = "Scientific Baccalaureate"
 school = "Lycée St Cricq"
 location = "Pau, France"
 date = "September 2015 to July 2018"
 description = [
-  "Obtained with honours, cat. very good",
-  "European honors (physics in english)"
+  "Obtained with honours, cat. very good.",
+  "European honors (physics in english)."
 ]
 
 [languages]
@@ -105,7 +106,7 @@ title = "Languages"
 [[languages.items]]
 lang = "English"
 level = "C1"
-proof = "\nTOEIC 975/990\n IELTS 7.5"
+proof = "\nTOEIC 975/990\nIELTS 7.5"
 
 [[languages.items]]
 lang = "Spanish"
@@ -114,7 +115,7 @@ proof = ""
 
 [[languages.items]]
 lang = "Korean"
-level = "Beginner, can read hangul"
+level = "Beginner, can read hangul."
 proof = ""
 
 [skills]
@@ -137,5 +138,6 @@ items = [ "Cisco IOS", "WireGuard", "NGINX", "DNS records" ]
 title = "About me"
 content = """
 Libre software enthusiast, I have Linux installed on all my machines
-(NixOS my beloved) and spend my time fooling around in the terminal, this resume
-might have been compiled from there."""
+(NixOS my beloved) and spend my time fooling around in the terminal, this resume might have been compiled from there.
+When I'm not at home in front of a computer screen, I am probably in the wild doing day hikes.
+"""
