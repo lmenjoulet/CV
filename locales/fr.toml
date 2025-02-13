@@ -1,15 +1,14 @@
 author = "Loup Menjoulet"
-degree = """Ingénieur en informatique et électronique, spécialisé en sécurité \
-         et qualité des réseaux"""
+degree = "Ingénieur en informatique et électronique, spécialisé en qualité et sécurité des réseaux"
 title = "CV de Loup Menjoulet"
 
 [[contacts]]
-category = "Tél. "
+category = "Téléphone"
 display = "+33 7 68 61 79 48"
 link = "tel:+33768617948"
 
 [[contacts]]
-category = "Courriel"
+category = "Email"
 display = "lmenjoulet@laposte.net"
 link = "mailto:lmenjoulet@laposte.net"
 
@@ -22,92 +21,84 @@ link = "https://linkedin.com/in/lmenj/"
 title = "Expérience professionnelle"
 
 [[jobs.items]]
-position = "Coordinateur Cybersécurité et Informatique"
+position = "Coordinateur Cybersécurité & IT"
 company = "EDF"
 location = "Hanoï, Vietnam"
-date = "Août 2023 - Maintenant"
+date = "Août 2023 - Présent"
 description = [
-  """Supervision de l'application d'un plan d'action sur la cybersécurité avec \
-  les entités de la zone Asie-Pacifique.""",
-  "Audit physique de datacenters de sites industriels au Vietnam et au Laos.",  
-  """Migration du parc informatique hérité de certaines entités vers des \
-  solutions administrées dans Intune.""",
-  "Helpdesk."
+  "Supervision de la cybersécurité pour les entités de la région Asie-Pacifique.",
+  "Coordination des décisions IT entre les différentes entités en APAC et le siège à Paris.",
+  "Audit physique des systèmes industriels et des datacenters au Laos et au Vietnam.",
+  "Migration des anciens ordinateurs des employés vers des solutions gérées par Intune.",
+  "Négociation de contrats pour des prestations de service IT.",
 ]
 
 [[jobs.items]]
-position = "Stagiaire au Security Operation Center d'EDF (SOC)"
+position = "Stagiaire au Centre d'Opérations de Sécurité"
 company  = "EDF"
 location = "Nancy, France"
 date = "Mars 2023 - Juillet 2023"
 description = [
-  """Réalisation d'un programme en Go pour automatiser le test des règles du \
-  SIEM de l'entreprise.""",
-  """Création d'un rapport météo automatisé sur la couverture de l'antivirus \
-  avec PowerShell et SQLite.""",
-  "Intégration des données du rapport météo dans des dashboards Splunk."
+  "Programmation en Go pour automatiser les tests des règles du SIEM de l'entreprise.",
+  "Création et automatisation de rapports sûr la couverture antivirus utilisant PowerShell et SQLite.",
+  "Intégration des rapports dans des tableaux de bord Splunk.",
 ]
 
 [[jobs.items]]
-position = "Stagiaire dans un laboratoire de recherche."
+position = "Stagiaire en laboratoire universitaire sur les réseaux de neurones"
 company = "INU"
 location = "Incheon, Corée du Sud"
 date = "Mai 2022 - Juillet 2022"
 description = [
-  """Création d'un outil basique permettant de synthétiser des jeux de données \
-  de consommation électrique avec Python et Keras.""",
-  """Analyse de données sur des jeux de données à l'état de l'art de la \
-  consommation électrique de foyers avec Python et Pandas"""
+  "Création d'un outil de synthèse pour les ensembles de données électriques domestiques à partir d'un LSTM NN.",
+  "Analyse de données sur des ensembles de données de pointe utilisant Pandas."
 ]
 
 [trainings]
-title = "Cursus scolaire"
+title = "Formations"
 
 [[trainings.items]]
-title = """Ingénieur en informatique et électronique, spécialisé en sécurité et \
-        qualité des réseaux."""
+title = "Ingénieur en informatique et électronique, spécialisé en sécurité et qualité des réseaux"
 school = "ESIREM"
 location = "Dijon, France"
-date = "Septembre 2020 - Juillet 2023"
+date = "Septembre 2020 à Juillet 2023"
 description = [
-  "Orienté sur les ordinateurs et réseaux informatiques",
-  "Certification CCNA",
-  "Développement mobile en Swift et Java",
-  "Administration de systèmes Linux (base Debian et RedHat)"
+  "Focus sur les réseaux informatiques et la cybersécurité.",
+  "Certification CCNA.",
+  "Développement mobile en Swift et Java.",
+  "Administration des systèmes Linux (basés sur RedHat et Debian).",
+  "Compétition étudiante de création de site web en 24h, première place."
 ]
 
 [[trainings.items]]
 title = "Semestre d'échange"
 school = "INU"
 location = "Incheon, Corée du Sud"
-date = "Février 2022 - Août 2022"
+date = "Février 2022 à Août 2022"
 description = [
-  """Cours pratique sur le machine learning et les réseaux de Neurones: DNN et \
-  LSTMs avec Keras.""",
-  "Programmation bas niveau en assembleur pour le jeu d'instruction MIPS."
+  "Formation pratique en deep learning : DNN et LSTM utilisant Keras.",
+  "Informatique de bas niveau en assembleur MIPS."
 ]
-
-
 
 [[trainings.items]]
 title = "Cycle préparatoire intégré"
 school = "ESIREM"
 location = "Dijon, France"
-date = "Septembre 2018 - Août 2020"
+date = "Septembre 2018 à Août 2020"
 description = [
-  "Orienté sur les connaissances scientiques et informatiques fondamentales.",
-  "Physique du semiconducteur, traitement du signal.",
-  "Programmation orientée objet en Cpp, bases des systèmes UNIX et de bash."
+  "Centré sur l'apprentissage scientifique et les fondamentaux de l'informatique.",
+  "Physique des semi-conducteurs, traitement du signal.",
+  "Programmation orientée objet en CPP, bases UNIX et shell bash."
 ]
 
 [[trainings.items]]
 title = "Baccalauréat scientifique"
 school = "Lycée St Cricq"
 location = "Pau, France"
-date = "Septembre 2015 - Juillet 2018"
+date = "Septembre 2015 à Juillet 2018"
 description = [
-  "Mention très bien",
-  "Mention européenne (physique-chimie en anglais)"
+  "Obtenu avec mention très bien.",
+  "Mention européenne (physique en anglais)."
 ]
 
 [languages]
@@ -125,7 +116,7 @@ proof = ""
 
 [[languages.items]]
 lang = "Coréen"
-level = "Débutant, lecture du Hangul"
+level = "Débutant, peut lire le hangul."
 proof = ""
 
 [skills]
@@ -136,20 +127,17 @@ title = "Langages de programmation"
 items = ["Go", "Python", "PowerShell", "Bash", "SQL"]
 
 [[skills.categories]]
-title = "Systèmes dérivés d'UNIX"
+title = "Systèmes dérivés de UNIX"
 items = [ "Debian", "RHEL", "NixOS", "MacOS" ]
 
 [[skills.categories]]
-title = "Réseaux informatiques"
-items = [ "Cisco IOS", "WireGuard", "NGINX", "DNS records" ]
+title = "Réseau"
+items = [ "Cisco IOS", "WireGuard", "NGINX", "Enregistrements DNS" ]
 
 
 [aboutme]
-title = "A propos de moi"
+title = "À propos de moi"
 content = """
-Adepte des logiciels libres, Linux est installé sur toutes mes machines, de mon
-routeur à mon ordinateur en passant par ma liseuse (NixOS est ma distribution
-préférée à jamais). J'aime beaucoup sortir, le grand air, les randonnées en
-montagne et le soleil, mais le soir je retourne à la ligne de commande, dont
-provient ce CV.
+Passionné de logiciels libres, j'ai Linux installé sur toutes mes machines et je passe mon temps devant le terminal, ce CV a
+probablement été compilé à partir de là. Quand je ne suis pas à la maison devant un écran d'ordinateur, je suis probablement dans la nature en train de faire des randonnées à la journée.
 """
