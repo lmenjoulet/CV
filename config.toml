@@ -1,6 +1,6 @@
 locale = "fr"
 author = "Loup Menjoulet"
-profile = "./photo.png"
+profile = "./photo.jpg"
 
 [style]
 font = "Libertinus Serif"
