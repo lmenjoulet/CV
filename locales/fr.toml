@@ -21,16 +21,16 @@ link = "https://linkedin.com/in/lmenj/"
 title = "Expérience professionnelle"
 
 [[jobs.items]]
-position = "Coordinateur Cybersécurité & IT"
+position = "Coordinateur IT et Cybersécurité"
 company = "EDF"
 location = "Hanoï, Vietnam"
 date = "Août 2023 - Présent"
 description = [
-  "Supervision de la cybersécurité pour les entités de la région Asie-Pacifique.",
-  "Coordination des décisions IT entre les différentes entités en APAC et le siège à Paris.",
-  "Audit physique des systèmes industriels et des datacenters au Laos et au Vietnam.",
-  "Migration des anciens ordinateurs des employés vers des solutions gérées par Intune.",
-  "Négociation de contrats pour des prestations de service IT.",
+  "Planification et implémentation des projets IT en Asie-Pacifique.",
+  "Négociation de contrats de prestations de service IT pour Singapour et le Japon.",
+  "Supervision des actions cybersécurité pour les entités de la région Asie-Pacifique.",
+  "Audit cybersécurité des systèmes industriels et des datacenters du Laos et du Vietnam.",
+  "Supervision de la migration des ordinateurs du parc vers des solutions de gestion cloud.",
 ]
 
 [[jobs.items]]
@@ -138,6 +138,6 @@ items = [ "Cisco IOS", "WireGuard", "NGINX", "Enregistrements DNS" ]
 [aboutme]
 title = "À propos de moi"
 content = """
-Passionné de logiciels libres, j'ai Linux installé sur toutes mes machines et je passe mon temps devant le terminal, ce CV a
-probablement été compilé à partir de là. Quand je ne suis pas à la maison devant un écran d'ordinateur, je suis probablement dans la nature en train de faire des randonnées à la journée.
+Souvent dehors à partir à l'aventure avec des amis, le Vietnam s'y prêtant bien, je suis à l'origine un passionné de bricolage informatique, aussi bien matériel que logiciel.
+Le sujet qui me passionne le plus dans ce domaine est les logiciels libres et l'aspect collaboratif organique qu'ils font émerger dans notre société.
 """
