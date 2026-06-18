@@ -2,17 +2,20 @@ author = "Loup Menjoulet"
 degree = "Engineer in Computer Science and Electronics, specialized in Network Quality and Security"
 title = "Loup Menjoulet's Resume"
 
-[[contacts]]
+[contacts]
+title = "Contact"
+
+[[contacts.items]]
 category = "Phone"
 display = "+33 7 68 61 79 48"
 link = "tel:+33768617948"
 
-[[contacts]]
+[[contacts.items]]
 category = "Email"
-display = "lmenjoulet@laposte.net"
-link = "mailto:lmenjoulet@laposte.net"
+display = "lmenjoulet@ik.me"
+link = "mailto:lmenjoulet@ik.me"
 
-[[contacts]]
+[[contacts.items]]
 category = "LinkedIn"
 display = "lmenj"
 link = "https://linkedin.com/in/lmenj/"
@@ -21,10 +24,21 @@ link = "https://linkedin.com/in/lmenj/"
 title = "Professional Experience"
 
 [[jobs.items]]
+position = "IT Coordinator"
+company = "EDF power solutions"
+location = "Seoul, South Korea"
+date = "October 2025 - Present"
+description = [
+  "Management of IT software solutions deployment in the Asia-Pacific region.",
+  "Supervision of IT support contractors in Australia, Taiwan and Singapore",
+  "Negotiation of IT service contracts for Singapore, Australia and Taiwan.",
+]
+
+[[jobs.items]]
 position = "IT and Cybersecurity Coordinator"
 company = "EDF"
 location = "Hanoi, Vietnam"
-date = "August 2023 - Present"
+date = "August 2023 - July 2025"
 description = [
   "Planning and implementation of IT projects in the Asia-Pacific region.",
   "Negotiation of IT service contracts for Singapore and Japan.",
@@ -116,7 +130,7 @@ proof = ""
 
 [[languages.items]]
 lang = "Korean"
-level = "Beginner, can read Hangul."
+level = "Beginner"
 proof = ""
 
 [skills]
@@ -137,7 +151,4 @@ items = ["Cisco IOS", "WireGuard", "NGINX", "DNS Records"]
 [aboutme]
 title = "About Me"
 content = """
-Often outdoors, going on adventures with friends, Vietnam being a great place for that, I am originally a computer tinkering enthusiast, both hardware and software.
-The topic that fascinates me the most in this field is free software and the organic collaborative aspect they bring to our society.
 """
-
