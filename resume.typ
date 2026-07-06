@@ -34,8 +34,7 @@
 #let sidebar = {
   [
     #if config.style.visibleProfile [
-      #pad(1em)[#image(config.profile)]
-      #line(length: 100%)
+      #align(center)[#image(config.profile, height: 45mm)]
     ]
 
     == #content.contacts.title
@@ -54,7 +53,7 @@
     == #content.skills.title
     #for category in content.skills.categories [
       ==== #category.title
-      #for skill in category.items [ #highlight(fill: aqua)[#skill]]
+      #for skill in category.items [ - #skill ]
     ]
 
     #line(length: 100%)
@@ -68,6 +67,11 @@
 
 #let main = {
   [
+    #align(center)[
+      #set text(size: 1.5em)
+      #underline[*Curriculum Vitae*]
+    ]
+
     = #content.author
     _#content.degree _
     == #content.jobs.title
@@ -94,13 +98,11 @@
 }
 
 // Body
-#align(center)[
-  #set text(size: 1.5em)
-  #underline[*Curriculum Vitae*]
-]
-
 #grid(
-  columns: (2fr, 5.5fr),
-  column-gutter: 2em,
-  sidebar, main,
+  columns: (2fr, 0pt, 5.5fr),
+  column-gutter: 1em,
+  sidebar,
+  grid.vline(stroke: 1pt),
+  [],
+  main,
 )

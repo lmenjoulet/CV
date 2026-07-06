@@ -29,10 +29,10 @@ company = "EDF power solutions"
 location = "Seoul, South Korea"
 date = "October 2025 - Present"
 description = [
-  "Management of IT software solutions deployment in the Asia-Pacific region.",
-  "Supervision of IT support contractors in Australia, Taiwan and Singapore",
-  "Negotiation of IT service contracts for Singapore, Australia and Taiwan.",
-  "Communication bridge for IT topics between Paris HQ and local subsidiaries",
+  "Coordinate IT software deployment across the Asia-Pacific region.",
+  "Manage external IT support contractors in Australia, Taiwan, Japan and Singapore.",
+  "Handle negotiations for IT service contracts in Singapore, Australia, and Taiwan.",
+  "Serve as the main liaison between Paris HQ and local subsidiaries for IT strategy and operations."
 ]
 
 [[jobs.items]]
@@ -41,11 +41,10 @@ company = "EDF"
 location = "Hanoi, Vietnam"
 date = "August 2023 - July 2025"
 description = [
-  "Planning and implementation of IT projects in the Asia-Pacific region.",
-  "Negotiation of IT service contracts for Singapore and Japan.",
-  "Supervision of cybersecurity actions for entities in the Asia-Pacific region.",
-  "Cybersecurity audit of industrial systems and data centers in Laos and Vietnam.",
-  "Supervision of the migration of computers to cloud management solutions.",
+  "Negotiate IT service contracts for Singapore and Japan entities.",
+  "Apply and oversee cybersecurity measures for regional entities.",
+  "Conduct cybersecurity audits on industrial systems and data centers in Laos and Vietnam.",
+  "Lead the migration of workstation management to cloud-based solutions."
 ]
 
 [[jobs.items]]
@@ -54,9 +53,9 @@ company = "EDF"
 location = "Nancy, France"
 date = "March 2023 - July 2023"
 description = [
-  "Programming in Go to automate the testing of the company's SIEM rules.",
-  "Creation and automation of reports on antivirus coverage using PowerShell and SQLite.",
-  "Integration of reports into Splunk dashboards.",
+  "Developed Go tools to automate SIEM rule testing processes.",
+  "Automated antivirus coverage reporting using PowerShell and SQLite.",
+  "Integrated security metrics into Splunk dashboards for operational monitoring."
 ]
 
 [[jobs.items]]
@@ -65,8 +64,8 @@ company = "INU"
 location = "Incheon, South Korea"
 date = "May 2022 - July 2022"
 description = [
-  "Creation of a synthesis tool for domestic electrical datasets from an LSTM NN.",
-  "Data analysis on cutting-edge datasets using Pandas."
+  "Built a synthesis tool for domestic electrical datasets using LSTM neural networks.",
+  "Performed data analysis on research datasets using Python and Pandas."
 ]
 
 [trainings]
@@ -78,11 +77,11 @@ school = "ESIREM"
 location = "Dijon, France"
 date = "September 2020 to July 2023"
 description = [
-  "Focus on computer networks and cybersecurity.",
+  "Major in computer networks and cybersecurity.",
   "CCNA certification.",
-  "Mobile development in Swift and Java.",
-  "Administration of Linux systems (based on RedHat and Debian).",
-  "Student competition for creating a website in 24 hours, first place."
+  "Mobile application development in Swift and Java.",
+  "Linux system administration (RedHat, Debian).",
+  "Winner of the 24-hour student web development competition."
 ]
 
 [[trainings.items]]
@@ -91,8 +90,8 @@ school = "INU"
 location = "Incheon, South Korea"
 date = "February 2022 to August 2022"
 description = [
-  "Practical training in deep learning: DNN and LSTM using Keras.",
-  "Low-level computing in MIPS assembly."
+  "Practical training in Deep Learning: DNN and LSTM using Keras.",
+  "Low-level computing and architecture in MIPS assembly."
 ]
 
 [[trainings.items]]
@@ -101,9 +100,9 @@ school = "ESIREM"
 location = "Dijon, France"
 date = "September 2018 to August 2020"
 description = [
-  "Focused on scientific learning and fundamentals of computer science.",
-  "Semiconductor physics, signal processing.",
-  "Object-oriented programming in C++, UNIX basics, and bash shell."
+  "Scientific fundamentals and computer science basics.",
+  "Semiconductor physics and signal processing.",
+  "Object-oriented programming in C++, UNIX basics, and Bash scripting."
 ]
 
 [[trainings.items]]
@@ -112,8 +111,8 @@ school = "Lycée St Cricq"
 location = "Pau, France"
 date = "September 2015 to July 2018"
 description = [
-  "Obtained with very good honors.",
-  "European mention (physics in English)."
+  "Obtained with Highest Honors.",
+  "European Section (Physics in English)."
 ]
 
 [languages]
@@ -135,21 +134,35 @@ level = "Beginner"
 proof = ""
 
 [skills]
-title = "Skills"
+title = "Technical Expertise"
 
 [[skills.categories]]
-title = "Programming Languages"
-items = ["Go", "Python", "PowerShell", "Bash", "SQL"]
+title = "Automation & Development"
+items = [
+  "Tooling & CLI (Go)",
+  "Data & Automation (Python)",
+  "System administration (PowerShell, Bash)",
+]
 
 [[skills.categories]]
-title = "UNIX-based Systems"
-items = ["Debian", "RHEL", "NixOS", "MacOS"]
+title = "System Architecture & Operations"
+items = [
+  "Linux Administration (RHEL, Debian, NixOS)",
+  "Cloud Migration Strategies",
+  "Endpoint Security",
+]
 
 [[skills.categories]]
-title = "Network"
-items = ["Cisco IOS", "WireGuard", "NGINX", "DNS Records"]
+title = "Network Infrastructure & Security"
+items = [
+  "Network Design (Cisco IOS)",
+  "Secure Tunneling (WireGuard)",
+  "Web Services (NGINX, DNS)",
+  "Cybersecurity Auditing",
+]
 
 [aboutme]
 title = "About Me"
 content = """
+Computer Science Engineer specializing in network security and international IT coordination. The part of my work I enjoy the most focuses on problem solving in complex field challenges, and coordinating diverse stakeholders in a multicultural environment.
 """

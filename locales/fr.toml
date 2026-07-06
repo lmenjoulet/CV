@@ -1,47 +1,61 @@
 author = "Loup Menjoulet"
-degree = "Ingénieur en informatique et électronique, spécialisé en qualité et sécurité des réseaux"
-title = "CV de Loup Menjoulet"
+degree = "Ingénieur en Informatique et Électronique, spécialisé en Qualité et Sécurité des Réseaux"
+title = "Curriculum Vitae de Loup Menjoulet"
 
-[[contacts]]
+[contacts]
+title = "Contact"
+
+[[contacts.items]]
 category = "Téléphone"
 display = "+33 7 68 61 79 48"
 link = "tel:+33768617948"
 
-[[contacts]]
+[[contacts.items]]
 category = "Email"
-display = "lmenjoulet@laposte.net"
-link = "mailto:lmenjoulet@laposte.net"
+display = "lmenjoulet@ik.me"
+link = "mailto:lmenjoulet@ik.me"
 
-[[contacts]]
+[[contacts.items]]
 category = "LinkedIn"
 display = "lmenj"
 link = "https://linkedin.com/in/lmenj/"
 
 [jobs]
-title = "Expérience professionnelle"
+title = "Expérience Professionnelle"
+
+[[jobs.items]]
+position = "Coordinateur IT"
+company = "EDF power solutions"
+location = "Séoul, Corée du Sud"
+date = "Octobre 2025 - Présent"
+description = [
+  "Déploiement de solutions IT pour la région Asie-Pacifique.",
+  "Gestion des prestataires support en Australie, à Taïwan, au Japon et à Singapour.",
+  "Négociation des contrats de services IT (Singapour, Australie, Taïwan).",
+  "Liaison entre le siège à Paris et les filiales locales."
+]
 
 [[jobs.items]]
 position = "Coordinateur IT et Cybersécurité"
 company = "EDF"
 location = "Hanoï, Vietnam"
-date = "Août 2023 - Présent"
+date = "Août 2023 - Juillet 2025"
 description = [
-  "Planification et implémentation des projets IT en Asie-Pacifique.",
-  "Négociation de contrats de prestations de service IT pour Singapour et le Japon.",
-  "Supervision des actions cybersécurité pour les entités de la région Asie-Pacifique.",
-  "Audit cybersécurité des systèmes industriels et des datacenters du Laos et du Vietnam.",
-  "Supervision de la migration des ordinateurs du parc vers des solutions de gestion cloud.",
+  "Négociation des contrats de support IT pour les filiales de Singapour et du Japon.",
+  "Supervision régionale du déploiement des mesures de cybersécurité.",
+  "Audits de cybersécurité sur systèmes industriels et datacenters au Laos et au Vietnam.",
+  "Migration de la gestion des postes de travail vers le cloud.",
 ]
 
 [[jobs.items]]
-position = "Stagiaire au Centre d'Opérations de Sécurité"
-company  = "EDF"
+position = "Stagiaire au Centre des Opérations de Sécurité"
+company = "EDF"
 location = "Nancy, France"
 date = "Mars 2023 - Juillet 2023"
 description = [
-  "Programmation en Go pour automatiser les tests des règles du SIEM de l'entreprise.",
-  "Création et automatisation de rapports sûr la couverture antivirus utilisant PowerShell et SQLite.",
-  "Intégration des rapports dans des tableaux de bord Splunk.",
+  "Développement d'outils en Go pour l'automatisation des tests de règles SIEM.",
+  "Automatisation du reporting antivirus (PowerShell, SQLite).",
+  "Intégration des métriques de sécurité dans les tableaux de bord Splunk."
 ]
 
 [[jobs.items]]
@@ -50,24 +64,24 @@ company = "INU"
 location = "Incheon, Corée du Sud"
 date = "Mai 2022 - Juillet 2022"
 description = [
-  "Création d'un outil de synthèse pour les ensembles de données électriques domestiques à partir d'un LSTM NN.",
-  "Analyse de données sur des ensembles de données de pointe utilisant Pandas."
+  "Création d'un outil de synthèse de données électriques par réseaux LSTM.",
+  "Analyse de données de recherche avec Python et Pandas."
 ]
 
 [trainings]
-title = "Formations"
+title = "Formation"
 
 [[trainings.items]]
-title = "Ingénieur en informatique et électronique, spécialisé en sécurité et qualité des réseaux"
+title = "Ingénieur en Informatique et Électronique, spécialisé en Sécurité et Qualité des Réseaux"
 school = "ESIREM"
 location = "Dijon, France"
 date = "Septembre 2020 à Juillet 2023"
 description = [
-  "Focus sur les réseaux informatiques et la cybersécurité.",
+  "Spécialisation en réseaux informatiques et cybersécurité.",
   "Certification CCNA.",
-  "Développement mobile en Swift et Java.",
-  "Administration des systèmes Linux (basés sur RedHat et Debian).",
-  "Compétition étudiante de création de site web en 24h, première place."
+  "Développement mobile Swift et Java.",
+  "Administration système Linux (RedHat, Debian).",
+  "Lauréat du concours de développement web étudiant de l'école."
 ]
 
 [[trainings.items]]
@@ -76,29 +90,29 @@ school = "INU"
 location = "Incheon, Corée du Sud"
 date = "Février 2022 à Août 2022"
 description = [
-  "Formation pratique en deep learning : DNN et LSTM utilisant Keras.",
-  "Informatique de bas niveau en assembleur MIPS."
+  "Deep Learning pratique : DNN et LSTM avec Keras.",
+  "Architecture et calcul bas niveau en assembleur MIPS."
 ]
 
 [[trainings.items]]
-title = "Cycle préparatoire intégré"
+title = "Cycle Préparatoire Intégré"
 school = "ESIREM"
 location = "Dijon, France"
 date = "Septembre 2018 à Août 2020"
 description = [
-  "Centré sur l'apprentissage scientifique et les fondamentaux de l'informatique.",
-  "Physique des semi-conducteurs, traitement du signal.",
-  "Programmation orientée objet en CPP, bases UNIX et shell bash."
+  "Fondamentaux scientifiques et informatique.",
+  "Physique des semi-conducteurs et traitement du signal.",
+  "Programmation C++, bases UNIX et scripting Bash."
 ]
 
 [[trainings.items]]
-title = "Baccalauréat scientifique"
+title = "Baccalauréat Scientifique"
 school = "Lycée St Cricq"
 location = "Pau, France"
 date = "Septembre 2015 à Juillet 2018"
 description = [
-  "Obtenu avec mention très bien.",
-  "Mention européenne (physique en anglais)."
+  "Obtenu avec Mention Très Bien.",
+  "Section Européenne (Physique en Anglais)."
 ]
 
 [languages]
@@ -116,28 +130,39 @@ proof = ""
 
 [[languages.items]]
 lang = "Coréen"
-level = "Débutant, peut lire le hangul."
+level = "Débutant"
 proof = ""
 
 [skills]
-title = "Compétences"
+title = "Expertise Technique"
 
 [[skills.categories]]
-title = "Langages de programmation"
-items = ["Go", "Python", "PowerShell", "Bash", "SQL"]
+title = "Automatisation & Développement"
+items = [
+  "Outillage & CLI (Go)",
+  "Données & Automatisation (Python)",
+  "Administration système (PowerShell, Bash)",
+]
 
 [[skills.categories]]
-title = "Systèmes dérivés de UNIX"
-items = [ "Debian", "RHEL", "NixOS", "MacOS" ]
+title = "Architecture Système & Opérations"
+items = [
+  "Administration Linux (RHEL, Debian, NixOS)",
+  "Stratégies de migration Cloud",
+  "Sécurité des postes de travail",
+]
 
 [[skills.categories]]
-title = "Réseau"
-items = [ "Cisco IOS", "WireGuard", "NGINX", "Enregistrements DNS" ]
-
+title = "Infrastructure Réseau & Sécurité"
+items = [
+  "Conception Réseau (Cisco IOS)",
+  "Tunneling Sécurisé (WireGuard)",
+  "Services Web (NGINX, DNS)",
+  "Audit de Cybersécurité",
+]
 
 [aboutme]
-title = "À propos de moi"
+title = "À propos"
 content = """
-Souvent dehors à partir à l'aventure avec des amis, le Vietnam s'y prêtant bien, je suis à l'origine un passionné de bricolage informatique, aussi bien matériel que logiciel.
-Le sujet qui me passionne le plus dans ce domaine est les logiciels libres et l'aspect collaboratif organique qu'ils font émerger dans notre société.
+Ingénieur en informatique spécialisé en sécurité réseau et coordination IT internationale. Expertise particulière dans la résolution de problèmes complexes sur le terrain et la coordination de parties prenantes en environnement multiculturel.
 """
