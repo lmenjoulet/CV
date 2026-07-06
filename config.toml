@@ -1,7 +1,0 @@
-locale = "fr"
-author = "Loup Menjoulet"
-profile = "./photo.jpg"
-
-[style]
-font = "Libertinus Serif"
-visibleProfile = true 

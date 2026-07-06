@@ -1,4 +1,10 @@
-#let config = toml("./config.toml")
+#let config_default = (
+    locale: "en",     /* any filename in ./locales/<filename>.toml */
+    pfp: "photo.jpg", /* can be relative filename or "none" */
+  )
+
+#let config = (: ..config_default, ..sys.inputs)
+
 #let content = toml("./locales/" + config.locale + ".toml")
 
 // styling
@@ -7,7 +13,7 @@
   margin: 2em,
 )
 #set text(
-  font: config.style.font,
+  font: "Libertinus Serif",
   size: 10pt,
 )
 #set par(justify: true)
@@ -33,8 +39,8 @@
 
 #let sidebar = {
   [
-    #if config.style.visibleProfile [
-      #align(center)[#image(config.profile, height: 45mm)]
+    #if config.pfp != "none" [
+      #align(center)[#image(config.pfp , height: 45mm)]
     ]
 
     == #content.contacts.title
