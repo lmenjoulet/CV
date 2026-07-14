@@ -1,0 +1,167 @@
+author = "Loup Menjoulet"
+degree = "컴퓨터 과학 및 전자공학 엔지니어, 네트워크 품질 및 보안 전공"
+title = "이력서"
+
+[contacts]
+title = "연락처"
+
+[[contacts.items]]
+category = "전화"
+display = "+33 7 68 61 79 48"
+link = "tel:+33768617948"
+
+[[contacts.items]]
+category = "이메일"
+display = "lmenjoulet@ik.me"
+link = "mailto:lmenjoulet@ik.me"
+
+[[contacts.items]]
+category = "LinkedIn"
+display = "lmenj"
+link = "https://linkedin.com/in/lmenj/"
+
+[jobs]
+title = "경력 사항"
+
+[[jobs.items]]
+position = "IT 코디네이터"
+company = "EDF power solutions"
+location = "서울, 대한민국"
+date = "2025 년 10 월 - 현재"
+description = [
+  "아시아태평양 지역 IT 소프트웨어 배포 총괄.",
+  "호주, 대만, 일본, 싱가포르 외부 IT 지원 업체 관리.",
+  "싱가포르, 호주, 대만 IT 서비스 계약 협상.",
+  "파리 본사와 현지 법인 간 IT 전략 및 운영 주요 연락 창구 역할."
+]
+
+[[jobs.items]]
+position = "IT 및 사이버보안 코디네이터"
+company = "EDF"
+location = "하노이, 베트남"
+date = "2023 년 8 월 - 2025 년 7 월"
+description = [
+  "싱가포르 및 일본 법인 IT 서비스 계약 협상.",
+  "지역 법인 사이버보안 조치 적용 및 감독.",
+  "라오스 및 베트남 산업 시스템과 데이터센터 사이버보안 감사 수행.",
+  "워크스테이션 관리의 클라우드 기반 솔루션 이전 주도."
+]
+
+[[jobs.items]]
+position = "보안 운영 센터 (SOC) 인턴"
+company = "EDF"
+location = "낭시, 프랑스"
+date = "2023 년 3 월 - 2023 년 7 월"
+description = [
+  "SIEM 규칙 테스트 프로세스 자동화를 위한 Go 도구 개발.",
+  "PowerShell 과 SQLite 를 활용한 안티바이러스 커버리지 보고 자동화.",
+  "운영 모니터링을 위한 보안 지표 Splunk 대시보드 통합."
+]
+
+[[jobs.items]]
+position = "신경망 연구실 인턴"
+company = "INU"
+location = "인천, 대한민국"
+date = "2022 년 5 월 - 2022 년 7 월"
+description = [
+  "LSTM 신경망을 활용한 가정용 전기 데이터셋 합성 도구 구축.",
+  "Python 과 Pandas 를 이용한 연구 데이터셋 데이터 분석 수행."
+]
+
+[trainings]
+title = "학력"
+
+[[trainings.items]]
+title = "컴퓨터 과학 및 전자공학 엔지니어, 네트워크 보안 및 품질 전공"
+school = "ESIREM"
+location = "디종, 프랑스"
+date = "2020 년 9 월 - 2023 년 7 월"
+description = [
+  "CCNA 자격증 취득.",
+  "Swift 와 Java 를 활용한 모바일 애플리케이션 개발.",
+  "Linux 시스템 관리 (RedHat, Debian).",
+  "24 시간 학생 웹 개발 대회 우승."
+]
+
+[[trainings.items]]
+title = "교환 학생"
+school = "INU"
+location = "인천, 대한민국"
+date = "2022 년 2 월 - 2022 년 8 월"
+description = [
+  "딥러닝 실습: Keras 를 활용한 DNN 및 LSTM.",
+  "MIPS 어셈블리를 통한 저수위 컴퓨팅 및 아키텍처."
+]
+
+[[trainings.items]]
+title = "통합 예비 과정"
+school = "ESIREM"
+location = "디종, 프랑스"
+date = "2018 년 9 월 - 2020 년 8 월"
+description = [
+  "과학 기초 및 컴퓨터 과학 기본.",
+  "반도체 물리학 및 신호 처리.",
+  "C++ 객체 지향 프로그래밍, UNIX 기본 및 Bash 스크립팅."
+]
+
+[[trainings.items]]
+title = "이공계 바칼로레아"
+school = "리세 생 크리크 (Lycée St Cricq)"
+location = "포, 프랑스"
+date = "2015 년 9 월 - 2018 년 7 월"
+description = [
+  "최우등 (Mention Très Bien) 으로 졸업.",
+  "유럽 학제 (물리학 영어 수업)."
+]
+
+[languages]
+title = "언어"
+
+[[languages.items]]
+lang = "영어"
+level = "C1"
+proof = "\nTOEIC 975/990\nIELTS 7.5"
+
+[[languages.items]]
+lang = "스페인어"
+level = "A2"
+proof = ""
+
+[[languages.items]]
+lang = "한국어"
+level = "초급"
+proof = ""
+
+[skills]
+title = "기술 전문성"
+
+[[skills.categories]]
+title = "자동화 및 개발"
+items = [
+  "툴링 및 CLI (Go)",
+  "데이터 및 자동화 (Python)",
+  "시스템 관리 (PowerShell, Bash)",
+]
+
+[[skills.categories]]
+title = "시스템 아키텍처 및 운영"
+items = [
+  "Linux 관리 (RHEL, Debian, NixOS)",
+  "클라우드 이전 전략",
+  "엔드포인트 보안",
+]
+
+[[skills.categories]]
+title = "네트워크 인프라 및 보안"
+items = [
+  "네트워크 설계 (Cisco IOS)",
+  "보안 터널링 (WireGuard)",
+  "웹 서비스 (NGINX, DNS)",
+  "사이버보안 감사",
+]
+
+[aboutme]
+title = "자기소개"
+content = """
+네트워크 보안 및 국제 IT 조달을 전문으로 하는 컴퓨터 공학 엔지니어입니다. 복잡한 현장 과제의 문제 해결과 다문화 환경에서 다양한 이해관계자를 조율하는 업무를 가장 선호합니다.
+"""

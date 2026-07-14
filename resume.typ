@@ -13,7 +13,7 @@
   margin: 2em,
 )
 #set text(
-  font: "Libertinus Serif",
+  font: ("Libertinus Serif", "Noto Serif CJK KR"),
   size: 10pt,
 )
 #set par(justify: true)
@@ -75,7 +75,7 @@
   [
     #align(center)[
       #set text(size: 1.5em)
-      #underline[*Curriculum Vitae*]
+      #underline[*#content.title*]
     ]
 
     = #content.author
